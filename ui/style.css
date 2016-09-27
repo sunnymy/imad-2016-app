@@ -5,6 +5,7 @@ body {
 }
 
 .header{
+    padding: 0;
     font-family: 'Baloo Bhai', cursive;
     background-color: black ;
     font-size: 40px;
