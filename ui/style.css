@@ -4,6 +4,13 @@ body {
     margin-top: 75px;
 }
 
+.header{
+    font-family: 'Baloo Bhai', cursive;
+    background-color: black ;
+    font-size: 40px;
+    color: lightgrey;
+    
+}
 .center {
     text-align: center;
 }
