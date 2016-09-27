@@ -9,6 +9,6 @@ function moveRight(){
 }
 
 ani.onclick = function(){
-    var interval = setINterval(moveRight,100);
+    var interval = setInterval(moveRight,100);
     
 };
