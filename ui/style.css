@@ -19,7 +19,8 @@ body {
 }
 
 .img-medium {
-    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
     border-radius: 50%;
     margin-top: 25px;
     height: 200px;
