@@ -12,16 +12,10 @@ body {
     height: 65px;
     
 }
-.center {
-    text-align: center;
-}
 
-.text-big {
-    font-size: 300%;
-}
-
-.bold {
-    font-weight: bold;
+.matter{
+    text-align:center;
+    
 }
 
 .img-medium {
