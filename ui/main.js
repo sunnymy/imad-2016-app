@@ -10,12 +10,19 @@ function moveRight()
     marginLeft = marginLeft + 10;
     ani.style.marginLeft = marginLeft + 'px';
 }
+else 
+{
+    if(marginRight >= 10)
+    {
+         marginRight = marginRight + 10;
+    ani.style.marginRight = marginRight + 'px';
+    }
+    
+}
+    
 }
 
-function moveLeft(){
-    
-    
-}
+
 ani.onclick = function(){
     var interval = setInterval(moveRight,100);
     
