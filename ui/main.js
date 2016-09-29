@@ -5,7 +5,7 @@ var marginLeft = 0;
 var marinRight = 0;
 function moveRight()
 {
-    if(marginLeft <= 620)
+    if(marginLeft <= 570)
 {
     marginLeft = marginLeft + 10;
     ani.style.marginLeft = marginLeft + 'px';
