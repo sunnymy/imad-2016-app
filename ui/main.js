@@ -12,7 +12,7 @@ function moveRight()
 }
 else 
 {
-    if(marginRight >= 10)
+    if(marginRight >= 0)
     {
          marginRight = marginRight + 10;
     ani.style.marginRight = marginRight + 'px';
