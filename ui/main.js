@@ -25,11 +25,5 @@ else
 
 ani.onclick = function(){
     var interval = setInterval(moveRight,100);
- var counter=0;
  
- app.get('/',function(req, res) {
-     counter = counter + 1;
-     var span = document.getElementById('count');
-     span.innerHTML = counter.toString();
- });
 };
