@@ -13,7 +13,7 @@ var counter=0;
  app.get('/',function(req, res) {
      counter = counter + 1;
      var span = document.getElementById('count');
-     span.innerHTML = counter.toString();
+     span.innerHTML = count.toString();
  });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
