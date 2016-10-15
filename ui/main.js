@@ -29,6 +29,7 @@ ani.onclick = function(){
  
  app.get('/',function(req, res) {
      counter = counter + 1;
-     var span = document.getElementById('')
+     var span = document.getElementById('count');
+     span.innerHTML = counter.toString();
  });
 };
