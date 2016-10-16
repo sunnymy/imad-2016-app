@@ -24,11 +24,11 @@ app.get('/ui/sun.jpg', function (req, res) {
 });
 
 app.get('/ui/fb.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sun.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'fb.jpg'));
 });
 
 app.get('/ui/twit.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sun.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'twit.jpg'));
 });
 
 app.get('/ui/main.js', function (req, res) {
