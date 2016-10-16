@@ -28,7 +28,7 @@ app.get('/ui/fb.jpg', function (req, res) {
 });
 
 app.get('/ui/twit.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'twit.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'twit.png'));
 });
 
 app.get('/ui/main.js', function (req, res) {
