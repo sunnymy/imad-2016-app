@@ -8,10 +8,10 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-var counter=0;
+var count=0;
  
  app.get('/',function(req, res) {
-     counter = counter + 1;
+     count = count + 1;
      var span = document.getElementById('count');
      span.innerHTML = count.toString();
  });
