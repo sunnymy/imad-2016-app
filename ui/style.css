@@ -1,7 +1,7 @@
 body{
 	 background-color: #000000;
-   padding: 0px;
-   margin: 0px;
+   padding: 0;
+   margin: 0;
  }
 
 #gradient
@@ -14,7 +14,6 @@ body{
 
 .header{
     font-family: 'Baloo Bhai', cursive;
-    background-color: black ;
     font-size: 40px;
     color: lightgrey;
     height: 65px;
