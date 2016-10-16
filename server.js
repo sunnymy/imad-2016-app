@@ -23,6 +23,14 @@ app.get('/ui/sun.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'sun.jpg'));
 });
 
+app.get('/ui/fb.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sun.jpg'));
+});
+
+app.get('/ui/twit.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sun.jpg'));
+});
+
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
