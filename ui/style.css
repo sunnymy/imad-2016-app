@@ -35,6 +35,9 @@ body{
     
 }
 
+.h1 {
+    color: white;
+}
 .soc{
     border-radius: 50%;
     margin-left:100px;
