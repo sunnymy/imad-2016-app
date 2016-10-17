@@ -1,0 +1,50 @@
+body{
+	background-color: #000000;
+   padding: 0;
+   margin: 0;
+ }
+
+#gradient
+{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 40px;
+    color: white;
+    height: 65px;
+    
+}
+
+.matter{
+    font-size:27px;
+    margin-left: 25px;
+    color:white;
+}
+
+.img-medium {
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 50%;
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    
+}
+.social {
+    color:white;
+    
+}
+
+.soc{
+    border-radius: 50%;
+    margin-left:100px;
+    height:70px;
+    width:70px;
+    
+}
+
